@@ -1,11 +1,11 @@
-interface IContact {
+interface ContactType{
     id: string;
     name: string;
     email: string;
     phone: string;
   }
   
-  class Contact implements IContact {
+  class Contact implements ContactType {
     constructor(
       public id: string,
       public name: string,
